@@ -1,0 +1,46 @@
+Design:
+    //a function for finding the shorter word
+    
+    //A<B,B<C...Y<Z
+    compare_letters(string a, string b)
+    
+    //checking <
+
+    tow names each with list of letters
+        overload < operator
+            bool overload(string a, string b)
+            //i=index of string
+            
+            
+            while a.at(i)=b.at(i)
+                i++
+            value=a.at(i)<b.at(i)
+            if value==True
+                return a
+            else return b
+            
+    //checking >
+   
+    tow names each with list of letters
+        overload > operator
+            bool overload(string a, string b)
+            //i=index of string
+            
+            while a.at(i)=b.at(i)
+                i++
+            value=a.at(i)>b.at(i)
+            if value==True
+                return b
+            else return a
+    
+    //checking decreasing or increasing or neither    
+    list of names
+    
+    
+    //string compare (takes an array and length)
+        call <
+        call >
+        check for all entries of the array
+        if
+    
+    
